@@ -1,0 +1,13 @@
+mixin style(href)
+    link(rel="stylesheet" type="text/css" href= href)
+
+mixin script(src)
+    script(src= src)&attributes(attributes)
+
+doctype
+html
+    head
+        title Snakeman
+        +style("css/main.css")
+        +script("js/app.js")
+    body
