@@ -289,7 +289,7 @@ module.exports = (function(){
     var video = require("./video");
 
     function init() {
-        video.load("/img/tileset.png", function(){
+        video.load("img/tileset.png", function(){
             this.init();
         });
     }
